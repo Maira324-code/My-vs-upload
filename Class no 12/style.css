@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo span {
+    font-weight: normal;
+}
+.nav {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+.btn {
+    background: #ad9401;
+    color: white;
+    border: none;
+    padding: 10px 15px; 
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+body {
+    background: url( 'The 7 Layers of OSI.webp')  ;
+}
+
+
